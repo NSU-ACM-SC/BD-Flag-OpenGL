@@ -9,7 +9,7 @@
 
 - On macOS, open in XCode as project, add OpenGL and GLUT libraries from project properties. Build and Run.
 
-- You can also use `-lgl` and `-lglut` flags while compiling from command line.
+- You can also use `-framework GLUT -framework OpenGL` flag while compiling from command line.
 
 - On linux : use the flags provided by the opengl and glut libs built for your distro.
 
