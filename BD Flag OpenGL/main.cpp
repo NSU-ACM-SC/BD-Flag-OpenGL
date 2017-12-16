@@ -6,7 +6,11 @@
 //  Copyright © 2017 Shawon Ashraf. All rights reserved.
 //
 
-#include <GLUT/GLUT.h>
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
 
 void render(void)
 {
