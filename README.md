@@ -1,4 +1,4 @@
-# Drawing the national flag on Bangladesh
+# Drawing the national flag of Bangladesh
 ## Using OpenGL and C++
 
 ### Required Libraries
@@ -9,7 +9,7 @@
 
 - On macOS, open in XCode as project, add OpenGL and GLUT libraries from project properties. Build and Run.
 
-- You can also use `-framework GLUT -framework OpenGL` flag while compiling from command line.
+- You can also use `-framework GLUT -framework OpenGL` flag while compiling from command line (macOS only).
 
 - On linux : use the flags provided by the opengl and glut libs built for your distro.
 
